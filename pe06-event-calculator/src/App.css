@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", system-ui, Arial, sans-serif;
+  color: #e6e8f5;
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(124, 58, 237, 0.25), transparent 50%),
+    radial-gradient(ellipse at 85% 80%, rgba(37, 99, 235, 0.22), transparent 55%),
+    linear-gradient(180deg, #05060f 0%, #0b1030 100%);
+  background-attachment: fixed;
+}
+
+.app {
+  width: min(600px, calc(100% - 2rem));
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.event-card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(15, 20, 45, 0.72);
+  border: 1px solid rgba(148, 163, 255, 0.18);
+  border-radius: 14px;
+}
+
+.event-card h2 {
+  margin-top: 0;
+  color: #8b9cff;
+}
+
+.event-card p {
+  margin: 0.5rem 0;
+  color: #a5acc8;
+}
+
+.event-card .total {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #c084fc;
+}
